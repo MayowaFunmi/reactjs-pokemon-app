@@ -5,6 +5,7 @@ import Card from './Card';
 import PokeInfo from './PokeInfo';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import './style.css';
 
 const Main = () => {
   const [pokeData, setPokeData] = useState([]);
